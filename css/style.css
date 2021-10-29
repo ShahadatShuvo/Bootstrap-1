@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color) !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ############## variable define ##########  */
+
+:root {
+    --primary-color: #F78431;
+    --secondary-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+}
+
+.color-prm {
+    color: var(--primary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+/* ######## Custom Scrollbar ###########  */
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+
+/* ############# Custom CSS design ###########  */
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    line-height: 3rem;
+}
+
+h4 {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: .7875rem;
+    color: var(--text-color);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 2.875rem;
+}
+
+.main-btn {
+    background-color: var(--primary-color);
+}
+
+.wrapper {
+    padding-top: 3.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+
+/* header design  */
+
+header {
+    background: rgb(247, 132, 49);
+    background: linear-gradient(89deg, rgba(247, 132, 49, 0.6628851369649422) 0%, rgba(245, 213, 206, 1) 7%, rgba(247, 239, 239, 1) 30%, rgba(250, 244, 244, 1) 39%, rgba(252, 248, 248, 1) 60%, rgba(255, 254, 254, 1) 74%, rgba(255, 184, 132, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.navbar-cls .navbar-logo {
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+
+/* section-1 top-banner styling  */
+
+.banner-cls .banner-text {
+    padding-top: 6.875rem;
+}
+
+.banner-cls .banner-text .btn-grp-1 {
+    margin-bottom: 10px !important;
+}
+
+.banner-cls .banner-text .btn-grp-2 {
+    margin-top: 5px !important;
+}
+
+.banner-cls h1 span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.banner-cls .search-btn .form-control {
+    border: none;
+}
+
+.banner-cls .img-front {
+    height: 36rem;
+    object-position: center;
+    object-fit: cover;
+    z-index: 100;
+}
+
+.banner-cls .img-front img {
+    height: 38rem;
+}
+
+.image-box {
+    position: relative;
+}
+
+.banner-cls .img-back {
+    position: absolute;
+    z-index: 10;
+}
+
+
+/* section-2 our services   */
+
+.about-wrap {
+    background-color: #FFE8D4;
+}
+
+
+/* testimonial-section  */
+
+.testimonial-wrap {
+    background: rgb(247, 132, 49);
+    background: linear-gradient(89deg, rgba(247, 132, 49, 0.6628851369649422) 0%, rgba(245, 213, 206, 1) 7%, rgba(247, 239, 239, 1) 30%, rgba(250, 244, 244, 1) 39%, rgba(252, 248, 248, 1) 60%, rgba(255, 254, 254, 1) 74%, rgba(255, 184, 132, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.testimonial-wrap .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.testimonial-wrap .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* footer styling  */
+
+.footer-wrap {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+}
